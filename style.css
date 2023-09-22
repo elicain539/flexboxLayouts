@@ -1,0 +1,31 @@
+* {
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.parent {
+    background-color:green;
+    min-height:100px;
+    padding:2px;
+    display:flex;
+}
+.child {
+    min-height: 50px;
+    min-width: 50px;
+}
+.aside2{
+    background-color:pink;
+    order:3;
+}
+.aside1 {
+    background-color:lightblue;
+    order:1;
+}
+.example2 {
+    justify-content:space-between;
+    align-items:center;
+}
+.mainbox {
+    background-color: yellow;
+    order:3;
+}
